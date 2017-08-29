@@ -33,5 +33,29 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
-
+  switch (age) {
+   case 13:
+       return "You are a teenager"
+       break; // break out of switch statement once code executed
+       case 14:
+           return "You are a teenager"
+           break; // break out of switch statement once code executed
+           case 15:
+               return "You are a teenager"
+               break; // break out of switch statement once code executed
+               case 16:
+                   return "You are a teenager"
+                   break; // break out of switch statement once code executed
+                   case 17:
+                       return "You are a teenager"
+                       break; // break out of switch statement once code executed
+                       case 18:
+                           return "You are a teenager"
+                           break; // break out of switch statement once code executed
+                           case 19:
+                               return "You are a teenager"
+                               break; // break out of switch statement once code executed
+   default:  // all other cases
+       return "You have an age"
+ }
 }
